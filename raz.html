@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+    
+    <title>Верные друзья</title>
+    <link rel="stylesheet" href="raz.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button><p class="paa"><a href="index.html">Главная</a></p></button>
+            <button><p class="pa"><a href="cat.html">Номера для котов</a></p></button>
+            <button><p class="pa"><a href="dog.html">Номера для собак</p></a></button>
+            <button><p class="paa"><a href="bron.html">Бронирование</a></p></button>
+            <button><p class="paa"><a href="othev.html">Отзывы</a></p></button>
+        </nav>
+    </header>
+    <main>
+        <div class="start">
+            <form class="form">
+            <h1>Расчет стоимость проживания</h1>
+            <label>Номер</label>
+        <div>
+            <select id="room-type">                
+                <option>собака стандарт</option>
+                <option>собака комфорт</option>
+                <option>собака vip</option>
+                <option>кот стандарт</option>
+                <option>кот комфорт</option>
+                <option>кот vip</option>
+            </select>
+        </div>            
+        <label>Дата проживания</label>
+        <p class="akcia">АКЦИЯ 1 день бесплатно, при условие доп. предложения</p>
+            <img src="./img/cat2.svg" class="cat2">
+            <div>
+                <input type="text" id="date-range" placeholder="выберите даты">
+            </div>
+        <label>Доп. предложения</label>
+            <div>
+                <select id="additional-service">
+                    <option>не нужно</option>
+                    <option>груминг</option>
+                    <option>дрессировка</option>
+                    <option>лакомства</option>
+                </select>
+            </div>
+        <div>
+                <button class="zaba" id="calculate-btn">Расчитать</button>
+        </div>
+        <label class="stom">Стоимость проживания</label>
+        <div>
+            <textarea id="total-cost" readonly></textarea>
+        </div>
+        <div>
+            <button type="submit" class="ras">Забронировать</button>
+    </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <img src="./img/dog9.svg" class="dog9">
+        <div class="socials">
+            <a href="https://web.telegram.org/"><img src="./img/Telegram.png" class="tg"></a>
+            <a href="https://web.whatsapp.com/"><img src="./img/WhatsApp.png"class="wt"></a>
+        </div>
+        <p class="copy">© Все права защищены <br> 2025</p>
+        <div class="alo">
+            <p>8 900 000 14 55</p><img src="./img/Phone.png" class="phone">
+        </div>
+    </footer>
+</body>
+<script src="raz.js"></script>
+</html>

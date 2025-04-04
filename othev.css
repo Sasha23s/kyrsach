@@ -1,0 +1,234 @@
+body {
+    background-color: #dff0e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    gap: 5vw;
+    padding: 1vw;
+    position: fixed;
+    z-index: 100;
+}
+nav button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    position: relative;
+    /* bottom: 2vw; */
+    left: 12.5vw;
+    height: 2vw;
+    width: 10vw;
+}
+.pa{
+    font-size: 1vw;
+    text-align: center; 
+    margin-top: 0.3vw;
+    font-family: "Jura";
+}
+h1{
+    font-size: 2.5vw;
+    text-align: center;     
+    position: absolute;
+    left: 45.5vw ;    
+    top: 4vw;
+    font-family: 'Jura';
+    font-weight: 400;
+}
+/* div{
+    border: 2px solid green;
+} */
+.sysi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    margin: 0 auto;
+    width: 70vw;
+    grid-template-areas:
+    "kart1 kart2"
+    "kart3 kart4"
+    "kart5 kart6";
+    position: relative;
+    top: 13vw;
+    /* row-gap: 1vw; */
+    gap: 2vw;
+}
+.a1{
+    grid-area: kart1;
+}
+.a2{
+    grid-area: kart2;
+}
+.a3{
+    grid-area: kart3;
+}
+.a4{
+    grid-area: kart4;
+}
+.a5{
+    grid-area: kart5;
+}
+.a6{
+    grid-area: kart6;
+}
+.imi{
+    font-family: 'Jura';
+    font-size: 2vw;
+    text-align: center;
+}
+img{
+    width: 25vw;
+}
+.otz{
+    font-family: 'Jura';
+    font-size: 1.5vw;
+    position: relative;
+    margin: 0 auto;
+    /* bottom: 1vw; */
+    width: 25vw;
+    /* border: 2px solid red; */
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    top: 20vw;
+    background: rgba(105, 105, 105, 0.47);
+}
+.boy{
+    width: 25vw;
+    position: absolute;
+    bottom: 0.8vw;
+    left: 3vw;
+}
+.socials img {
+    /* width: 3.5vw; */
+    margin: 0 0.5vw;
+    position: relative;
+    top: 2.5vw;
+}
+.tg{
+    width: 3vw;
+}
+.wt{
+    width: 2.9vw;
+}
+.alo{
+    position: relative;
+    font-family: "Jura";
+    font-weight: 400;
+    left: 87vw;
+    bottom: 7vw;    
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 3vw;
+}
+.phone {
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    bottom: 3.5vw;
+    right: 5vw;
+}
+.copy{
+    font-size: 1vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    top: 2.5vw;
+}
+@media (max-width: 400px) {
+nav button {
+    /* top: 1vw; */
+    width: 15vw;
+    height: 4vw;
+    position: relative;
+    left: 1.5vw;
+}   
+.pa{
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.da{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+h1{
+    font-size: 3vw;
+    top: 8.5vw;
+}
+.sysi{
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "kart1"
+    "kart2"
+    "kart3"
+    "kart4"
+    "kart5"
+    "kart6";
+    position: relative;
+    left: 10vw;
+    top: 20vw;
+    gap: 5vw;
+}
+img{
+    width: 35vw;
+}
+.imi{
+    font-family: 'Jura';
+    font-size: 3vw;
+    text-align: center;
+}
+.otz{
+    font-size: 2.5vw;
+    width: 50vw;
+}
+.boy{
+    position: absolute;
+    bottom: 5vw;
+    left: 3vw;
+    width: 33vw;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 18vw;
+    top: 30vw;
+    background: rgba(105, 105, 105, 0.47);
+}
+.copy{
+    font-size: 2vw;
+    /* top: 0.5vw; */
+}
+.tg{
+    width: 5vw;
+}
+.wt{
+    width: 5vw;
+}
+.alo{
+    left: 77vw;
+    bottom: 15vw;    
+    margin-top: 5vw;
+    font-size: 2.5vw;
+    width: 20vw;
+    height: 3vw;
+}
+.phone {
+    width: 6vw;
+    height: 6vw;
+    position: relative;
+    bottom: 5vw;
+    right: 10vw;
+}
+}

@@ -1,0 +1,348 @@
+body {
+    background-color: #dff0e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    gap: 5vw;
+    left: 12.5vw;
+    padding: 1vw;
+    /* margin-top: 1vw; */
+    position: fixed;
+    z-index: 100;
+}
+nav button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    height: 2vw;
+    width: 10vw;
+}
+.pa{
+    font-size: 1vw;
+    text-align: center; 
+    margin-top: 0.3vw;
+    font-family: "Jura";
+}
+h1{
+    font-size: 2.5vw;
+    text-align: center;     
+    position: absolute;
+    left: 40.5vw ;    
+    top: 4vw;
+    font-family: 'Jura';
+    font-weight: 400;
+}
+.opis{
+    position: absolute;
+    width: 40vw;
+    top: 10vw;
+    left: 30vw;
+    font-family: 'Jura';
+    font-size: 2vw;
+    /* text-align: center; */
+}
+/* div{
+    border: 2px solid red;
+} */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "d1 d1"
+    "stan1 stan2"
+    "d2 d2"
+    "komf1 komf2"
+    "d3 d3"
+    "vip1 vip2"
+    "d4 d5";
+    position: relative;
+    top: 20vw;
+    width: 80vw;
+    margin: auto;
+    gap: 3vw;
+}
+.d1{
+    grid-area: d1;
+    font-family: 'Jura';
+    font-size: 2.5vw;
+    position: relative;
+    right: 30vw;
+}
+.a1{
+    grid-area: stan1;
+}
+.a2{
+    grid-area: stan2;
+}
+.d2{
+    grid-area: d2;
+    font-family: 'Jura';
+    font-size: 2.5vw;
+    position: relative;
+    right: 30.4vw;
+}
+.a3{
+    grid-area: komf1;
+}
+.a4{
+    grid-area: komf2;
+}
+.d3{
+    grid-area: d3;
+    font-family: 'Jura';
+    font-size: 2.5vw;
+    position: relative;
+    right: 33.5vw;
+}
+.a5{
+    grid-area: vip1;
+}
+.a6{
+    grid-area: vip2;
+}
+.d4{
+    grid-area: d4;
+}
+.d5{
+    grid-area: d5;
+}
+img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.gaf{
+    width: 18vw;
+    height: 21vw;
+    position: absolute;
+    /* bottom: 33.3vw;
+    left: 10vw; */
+    top:68.7vw;
+    left: 25vw;
+}
+.sviz{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    height: 3vw;
+    width: 15vw;
+    font-family: "Jura";
+    margin-left: 25vw;
+    margin-top: 2vw;
+}
+.bron{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    height: 3vw;
+    width: 15vw;
+    font-family: "Jura";
+    margin-right: 25vw;
+    margin-top: 2vw;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    top: 30vw;
+    background: rgba(105, 105, 105, 0.47);
+}
+.dog5{
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    bottom: 8vw;
+    left: 3vw;
+}
+.dog6{
+    width: 6vw;
+    height: 10vw;
+    position: absolute;
+    top: 4vw;
+    right: 13vw;
+}
+.dog7{
+    width: 6vw;
+    height: 10vw;
+    position: absolute;
+    top: 50vw;
+    right: 3vw;
+    /* left: 13vw; */
+}
+.socials img {
+    /* width: 3.5vw; */
+    margin: 0 0.5vw;
+    position: relative;
+    top: 2.5vw;
+}
+.tg{
+    width: 3vw;
+}
+.wt{
+    width: 2.9vw;
+}
+.alo{
+    position: relative;
+    font-family: "Jura";
+    font-weight: 400;
+    left: 87vw;
+    bottom: 7vw;    
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 3vw;
+}
+.phone {
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    bottom: 3.5vw;
+    right: 5vw;
+}
+.copy{
+    font-size: 1vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    top: 2.5vw;
+}
+@media (max-width: 400px) {
+    .grid {
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "d1"
+        "stan1"
+        "stan2"
+        "d2"
+        "komf1"
+        "komf2"
+        "d3"
+        "vip1" 
+        "vip2"
+        "d4" 
+        "d5";
+        top: 29vw;
+        gap: 3vw;
+    }
+    nav button {
+        font-size: 4vw;
+        width: 15vw;
+        height: 4vw;
+        position: relative;
+        right: 11vw;
+    }    
+    .nom, .ras{
+        position: relative;
+        top: 1vw;
+    }
+    .pa{
+        font-size: 1.5vw;
+        margin: 0 auto;
+    }
+    h1{
+        top: 7.5vw;
+        font-size: 3vw;
+        text-align: center;
+        left: 37vw ;    
+    }
+    .opis{
+        top: 13vw;
+        font-size: 2.5vw;
+        width: 50vw;
+        left: 24vw;
+    }    
+    .d1, .d2, .d3{
+        font-size: 3vw;
+    }
+    .d2{
+        right: 30.7vw;
+    }
+    .d3{
+        right: 35vw;
+    }
+    .gaf{
+        top: 220.7vw;
+        width: 23vw;
+        height: 23vw;
+        
+    }
+    .dog6{
+        width: 16vw;
+        height: 16vw;
+        top: 1.5vw;
+        right: 7vw;
+    }
+    .dog7{
+        width: 18vw;
+        height: 18vw;
+        top: 180vw;
+        right: 7vw;
+    }
+    .dog5{
+        width: 25vw;
+        height: 25vw;
+        position: absolute;
+        bottom: 6vw;
+        left: 3vw;
+    }
+    .sviz{
+        font-size: 1.8vw;
+        height: 4vw;
+        width: 20vw;
+    }
+    .bron{
+        font-size: 1.8vw;
+        height: 4vw;
+        width: 20vw;
+        position: relative;
+        bottom: 9.3vw;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        height: 18vw;
+        top: 30vw;
+        background: rgba(105, 105, 105, 0.47);
+    }
+    .copy{
+        font-size: 2vw;
+        /* top: 0.5vw; */
+    }
+    .tg{
+        width: 5vw;
+    }
+    .wt{
+        width: 5vw;
+    }
+    .alo{
+        left: 77vw;
+        bottom: 15vw;    
+        margin-top: 5vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        height: 3vw;
+    }
+    .phone {
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        bottom: 5vw;
+        right: 10vw;
+    }
+
+}

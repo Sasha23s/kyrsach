@@ -1,0 +1,278 @@
+body {
+    background-color: #dff0e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    gap: 5vw;
+    left: 12.5vw;
+    padding: 1vw;
+    position: fixed;
+    z-index: 100;
+}
+nav button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    height: 2vw;
+    width: 10vw;
+}
+.pa{
+    font-size: 1vw;
+    text-align: center; 
+    margin-top: 0.3vw;
+    font-family: "Jura";
+}
+/* div{
+    border: 2px solid green;
+} */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "h1"
+    "opis"
+    "stan"
+    "kart1"
+    "comf"
+    "kart2"
+    "vip3"
+    "kart3"
+    "a9"
+    "a10";
+    margin: 0 auto ;
+    position: relative;
+    top: 4vw;
+    width: 40vw;
+}
+.a1{
+    grid-area: h1;
+}
+h1{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Jura';
+    font-weight: 400;
+    /* margin: 0 auto; */
+}
+.a2{
+    grid-area: opis;
+}
+.opis{
+    width: 40vw;
+    font-family: 'Jura';
+    font-size: 2vw;
+}
+.a3{
+    grid-area: stan;
+}
+.sta{
+    font-family: 'Jura';
+    font-size: 2.5vw;    
+    position: relative;
+    right: 30vw;
+}
+.sta2{
+    font-family: 'Jura';
+    font-size: 2.5vw;    
+    position: relative;
+    right: 30.2vw;
+}
+.sta1{
+    font-family: 'Jura';
+    font-size: 2.5vw;    
+    position: relative;
+    right: 33vw;
+}
+.a4{
+    grid-area: kart1;
+}
+.a5{
+    grid-area: comf;
+}
+.a6{
+    grid-area: kart2;
+}
+.a7{
+    grid-area: vip3;
+}
+.a8{
+    grid-area: kart3;
+}
+.a9{
+    grid-area: a9;
+}
+/* .a10{
+    grid-area: a10;
+} */
+img{
+    width: 30vw;
+}
+.sviz{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    height: 3vw;
+    width: 15vw;
+    font-family: "Jura";
+    position: relative;
+    left: 11vw;
+    bottom: 3vw;
+}
+.bron{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    height: 3vw;
+    width: 15vw;
+    font-family: "Jura";
+    margin-right: 23vw;
+    margin-top: 5vw;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    top: 10vw;
+    background: rgba(105, 105, 105, 0.47);
+}
+.socials img {
+    /* width: 3.5vw; */
+    margin: 0 0.5vw;
+    position: relative;
+    top: 2.5vw;
+}
+.alo{
+    position: relative;
+    font-family: "Jura";
+    font-weight: 400;
+    left: 3vw;
+    bottom: 7vw;    
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 3vw;
+}
+.tg{
+    width: 3vw;
+}
+.wt{
+    width: 2.9vw;
+}
+.phone {
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    bottom: 3.5vw;
+    right: 5vw;
+}
+.copy{
+    font-size: 1vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    top: 2.5vw;
+}
+.cat3{
+    width: 20vw;
+    position: absolute;
+    bottom: 3vw;
+    left: 78vw;
+}
+@media (max-width: 400px) {
+    .grid{
+        top: 10vw;
+    }
+    nav button {
+        font-size: 4vw;
+        width: 15vw;
+        height: 4vw;
+        position: relative;
+        right: 11vw;
+    }    
+    .dogi, .ras{
+        position: relative;
+        top: 1vw;
+    }
+    .pa{
+        font-size: 1.5vw;
+        margin: 0 auto;
+    }
+    h1{
+        top: 7.5vw;
+        font-size: 3vw;
+        text-align: center;
+        left: 37vw ;    
+    }
+    .opis{
+        top: 13vw;
+        font-size: 2.5vw;
+        width: 50vw;
+        left: 24vw;
+    }    
+    .bron{
+        font-size: 1.8vw;
+        height: 4vw;
+        width: 20vw;
+
+    }
+    .sviz{
+        font-size: 1.8vw;
+        height: 4vw;
+        width: 20vw;
+        position: relative;
+        bottom: 4.8vw;
+    }
+    .copy{
+        font-size: 2vw;
+        /* top: 0.5vw; */
+    }
+    .tg{
+        width: 5vw;
+    }
+    .wt{
+        width: 5vw;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        height: 18vw;
+        top: 15vw;
+        background: rgba(105, 105, 105, 0.47);
+    }
+    .alo{
+        bottom: 15vw;    
+        margin-top: 5vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        height: 3vw;
+    }
+    .phone {
+        width: 6vw;
+        height: 6vw;
+        bottom: 5.5vw;
+        right: 9.5vw;
+    }
+    .cat3{
+        width: 25vw;
+        bottom: 5vw;
+        left: 75.5vw;
+    }
+    img{
+        width: 45vw;
+    }
+}

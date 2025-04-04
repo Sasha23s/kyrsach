@@ -1,0 +1,360 @@
+body {
+    background-color: #dff0e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    gap: 5vw;
+    padding: 1vw;
+    position: fixed;
+    z-index: 100;
+}
+nav button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    /* font-size: 1.2vw; */
+    position: relative;
+    /* bottom: 2vw; */
+    left: 12.5vw;
+    height: 2vw;
+    width: 10vw;
+}
+.pa{
+    font-size: 1vw;
+    text-align: center; 
+    margin-top: 0.3vw;
+    font-family: "Jura";
+}
+h1{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Jura';
+    font-weight: 400;
+}
+/* div{
+    border: 2px solid red;
+} */
+.grigi{
+    display: grid;
+    margin: 0 auto ;
+    position: relative;
+    top: 4vw;
+    width: 60vw;
+}
+.forma {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+label {
+    text-align: left;
+    font-family: "Jura";
+    font-size: 1.82vw;
+    display: flex;
+}
+::placeholder{
+    text-align: center;
+    font-size: 1.3vw;
+    position: relative;
+    font-family: "Jura";
+    color: black;
+    left: 1vw;
+    bottom: 0.2vw;
+}
+/*от 1 даты до другой*/
+#date-range {
+    font-size: 1.5vw;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Jura";
+    padding: 0.5vh 1vw;
+    height: 2vw;
+} 
+input{
+    box-shadow: 0px 0.26vw 0.21vw rgba(0, 0, 0, 0.25);    
+    border-radius: 20px;
+    background: #D9D9D9;
+    width: 46.8vw;    
+    height: 2.5vw;
+    border: none;
+    padding-left: 1.5vw;
+    text-align: center;
+    font-family: "Jura";
+    font-size: 1vw;
+}
+input:focus {
+    outline: none;
+}
+textarea{
+    box-shadow: 0px 0.26vw 0.21vw rgba(0, 0, 0, 0.25);    
+    border-radius: 20px;
+    background: #D9D9D9;
+    width: 47.5vw;    
+    height: 10vw;   
+    font-family: "Jura";
+    font-size: 1.5vw;
+    border: none;
+    text-align: center;
+}
+select {
+    box-shadow: 0px 0.26vw 0.21vw rgba(0, 0, 0, 0.25);    
+    border-radius: 20px;
+    background: #D9D9D9;
+    width: 48.5vw;    
+    height: 2.5vw;
+    border: none;
+    font-family: "Jura";
+    font-size: 1.5vw;
+    text-align: center;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image: url('./img/pet.svg');
+    background-size: 2vw;
+    background-repeat: no-repeat;
+    background-position: right 1vw center; 
+}
+.zaba{
+    background: #D9D9D9;
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    height: 3vw;
+    width: 15vw;
+    font-family: "Jura";
+    position: relative;
+    bottom: 5vw;
+    box-shadow: 0px 0.26vw 0.21vw rgba(0, 0, 0, 0.25); 
+}
+.laptop{
+    width: 10vw;
+    position: relative;
+    bottom: 17.5vw;
+    left: 38vw;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    top: 15vw;
+    background: rgba(105, 105, 105, 0.47);
+}
+.man{
+    position: absolute;
+    width: 25vw;
+    right: 73vw;
+    bottom: 6vw;
+    /* border: 2px solid green; */
+}
+.socials img {
+    margin: 0 0.5vw;
+    position: relative;
+    top: 2.5vw;
+}
+.tg{
+    width: 3vw;
+}
+.wt{
+    width: 2.9vw;
+}
+.alo{
+    position: relative;
+    font-family: "Jura";
+    font-weight: 400;
+    left: 87vw;
+    bottom: 7vw;    
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 3vw;
+}
+.phone {
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    bottom: 3.5vw;
+    right: 5vw;
+}
+.copy{
+    font-size: 1vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    top: 2.5vw;
+}
+@media (max-width: 400px) {
+    nav button {
+        width: 15vw;
+        height: 4vw;
+        position: relative;
+        left: 1.5vw;
+    }    
+    h1{
+        font-size: 3vw;
+    }
+    .pa{
+        font-size: 1.5vw;
+        margin: 0 auto;
+        font-family: "Jura";
+    }
+    .grigi{
+        top: 10vw;
+    }
+    .da{
+        position: relative;
+        top: 1vw;
+    }
+    #date-range {
+        font-size: 2vw;
+        height: 1vw;
+        /* height: 1vw; */
+    } 
+    select{
+        width: 49vw;    
+        height: 3vw;
+        font-size: 2vw;
+    }
+    select option {
+        font-size: 3vw;
+    }
+    .flatpickr-calendar {
+        width: 150px !important;
+        max-height: 235px !important;
+        font-size: 12px !important;
+        transform: scale(0.8) !important;
+        transform-origin: center !important;
+    }
+    .flatpickr-innerContainer {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+    .flatpickr-rContainer {
+        width: 100% !important;
+    }
+    .flatpickr-days {
+        width: 100% !important;
+    }
+    .dayContainer {
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+    .flatpickr-day {
+        width: 24px !important;
+        height: 24px !important;
+        line-height: 24px !important;
+        margin: 1px !important;
+        font-size: 11px !important;
+    }
+    .flatpickr-weekdays {
+        height: 22px !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .flatpickr-weekday {
+        font-size: 10px !important;
+        font-weight: normal !important;
+    }
+    
+    .flatpickr-current-month {
+        font-size: 12px !important;
+        padding-top: 2px !important;
+        height: 28px !important;
+    }
+    
+    .flatpickr-months .flatpickr-month {
+        height: 28px !important;
+    }
+    
+    .flatpickr-prev-month, 
+    .flatpickr-next-month {
+        padding: 4px 8px !important;
+        height: 28px !important;
+    }
+    
+    .flatpickr-monthDropdown-months {
+        font-size: 12px !important;
+        padding: 0 2px !important;
+    }
+    
+    .numInputWrapper {
+        width: 50px !important;
+    }
+    
+    .flatpickr-overlay {
+        background: rgba(0,0,0,0.3) !important;
+    }
+    ::placeholder{
+        font-size: 2vw;
+    }
+    label {
+        font-size: 2.5vw;
+    }
+    input{
+        width: 46.8vw;    
+        height: 2.7vw;
+        font-size: 2vw;
+    }
+    textarea{  
+        border-radius: 10px;
+        width: 47.5vw;    
+        height: 10vw;   
+        font-size: 2vw;
+    }
+    .zaba{
+        font-size: 1.8vw;
+        height: 4vw;
+        width: 20vw;
+    }
+    .man{
+        position: absolute;
+        width: 40vw;
+        right: 59vw;
+        bottom: 10vw;
+        /* border: 2px solid green; */
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        height: 18vw;
+        /* top: 30vw; */
+        background: rgba(105, 105, 105, 0.47);
+    }
+    .copy{
+        font-size: 2vw;
+        /* top: 0.5vw; */
+    }
+    .tg{
+        width: 5vw;
+    }
+    .wt{
+        width: 5vw;
+    }
+    .alo{
+        left: 77vw;
+        bottom: 15vw;    
+        margin-top: 5vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        height: 3vw;
+    }
+    .phone {
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        bottom: 5vw;
+        right: 10vw;
+    }
+}
