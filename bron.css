@@ -195,7 +195,7 @@ footer{
     position: relative;
     top: 2.5vw;
 }
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     nav button {
         width: 15vw;
         height: 4vw;
@@ -231,7 +231,7 @@ footer{
         font-size: 3vw;
     }
     .flatpickr-calendar {
-        width: 150px !important;
+        width: 200px !important;
         max-height: 235px !important;
         font-size: 12px !important;
         transform: scale(0.8) !important;
