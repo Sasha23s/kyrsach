@@ -1,0 +1,329 @@
+body {
+    background-color: #dff0e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    gap: 5vw;
+    padding: 1vw;
+    position: fixed;
+    z-index: 100;
+}
+.sosa{
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    position: relative;
+    bottom: 2vw;
+    left: 12.5vw;
+    height: 2vw;
+    width: 10vw;
+}
+nav button {
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    position: relative;
+    bottom: 2vw;
+    left: 12.5vw;
+    height: 2vw;
+    width: 10vw;
+    
+}
+.pa{
+    font-size: 1vw;
+    text-align: center; 
+    margin-top: 0.3vw;
+    font-family: "Jura";
+}
+h1 {
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 2vw 0;
+    font-family: "Lobster";
+    font-weight: 400;
+    position: relative;
+    top: 5vw;
+}
+.dog{
+    width: 23vw;
+    height: auto;
+    position: relative;
+    right: 3vw;
+    top: 7.3vw;
+}
+.bowl1{
+    width: 7vw;
+    height: 4vw;
+    position: relative;
+    right: 5vw;
+    top: 7vw;
+    z-index: 10;
+}
+.bone{
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    right: 10.5vw;
+    top: 5.5vw;
+    z-index: 0;
+}
+.bowl2{
+    width: 7vw;
+    height: 4vw;
+    position: relative;
+    right: 20vw;
+    top: 7vw;
+}
+.fish{
+    width: 4vw;
+    height: 4vw;
+    position: relative;
+    right: 15vw;
+    top: 6vw;
+}
+.cat{
+    width: 18vw;
+    height: auto;
+    position: relative;
+    left: 7vw;
+    top: 7vw;
+}
+.about {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 1.9vw;
+    line-height: 1.5;
+    font-family: "Jura";
+    position: relative;
+    top: 10vw;
+}
+.rooms {
+    font-size: 3vw;
+    font-family: "Lobster";
+    font-weight: 400;
+    margin-top: 13vw;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 1.5vw 0;
+}
+.buttons button {
+    border: none;
+    border-radius: 3vw;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #d9d9d9;
+    height: 2.5vw;
+    width: 13vw;
+    top: 5vw;
+    position: relative;
+}
+.p{
+    font-size: 1.5vw;
+    text-align: center; 
+    margin-top: 0.2vw;
+    font-family: "Jura";
+}
+.nomera{
+    width: 46vw;
+    margin: 0 auto;
+    font-size: 1.9vw;
+    line-height: 1.5;
+    font-family: "Jura";
+    font-weight: 400;
+}
+.dog2{
+    position: relative;
+    right: 37vw;
+    bottom: 22vw;
+    width: 15vw;
+    height: auto;
+    
+}
+.adres {
+    font-size: 3vw;
+    font-family: "Lobster";
+    font-weight: 400;
+    position: relative;
+    bottom: 10vw;
+}
+.gorod{
+    font-size: 1.5vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    bottom: 10vw;
+}
+.cat2{
+    /* position: relative;
+    bottom: 31.5vw; */
+    /* width: 15vw; */
+    /* left: 68.5vw;
+    z-index: 1;
+    height: auto;
+    width: 18vw; */
+    position: absolute;
+    top: 113vw; /* Поднять кота немного выше карты */
+    right: 2vw; /* Отступ от правого края */
+    width: 18vw; /* Адаптивная ширина */
+    height: auto; /* Сохранить пропорции */
+    z-index: 10; /* Убедиться, что кот выше карты */
+}
+iframe {
+    margin: 0 auto;
+    position: relative;
+    bottom: 8vw;
+    width: 90vw; 
+    height: 60vh; 
+    border: 0;
+}
+footer {
+    background: rgba(105, 105, 105, 0.47);
+    height: auto;
+    position: relative;
+    /* bottom: 20vw; */
+}
+.socials img {
+    /* width: 3.5vw; */
+    margin: 0 0.5vw;
+    position: relative;
+    top: 2.5vw;
+}
+.tg{
+    width: 3vw;
+}
+.wt{
+    width: 2.9vw;
+}
+.alo{
+    /* border: 2px solid green; */
+    position: relative;
+    font-family: "Jura";
+    font-weight: 400;
+    left: 87vw;
+    bottom: 7vw;    
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    width: 10vw;
+    height: 3vw;
+}
+.phone {
+    width: 5vw;
+    position: relative;
+    bottom: 3.5vw;
+    right: 5vw;
+}
+.copy{
+    font-size: 1vw;
+    font-family: "Jura";
+    font-weight: 400;
+    position: relative;
+    top: 3.5vw;
+}
+@media (max-width: 400px) {
+    /* body {
+        font-size: 3.5vw;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 2vw;
+    } */
+    .sosa{
+        bottom: 0.9vw;
+        left: 2vw;
+        width: 15vw;
+        height: 4vw;
+    }
+    nav button {
+        font-size: 4vw;
+        width: 15vw;
+        height: 4vw;
+        left: 3vw;
+    }
+    .pa{
+        font-size: 1.5vw;
+        margin: 0 auto;
+    }
+
+    .about{
+        font-size: 2.5vw;
+        margin: 0 auto;
+    }
+    .nomera{
+        font-size: 2vw;
+        margin: 0 auto;
+    }
+    .gorod{
+        font-size: 2.3vw;
+    }
+    .adres{
+        font-size: 2.5vw;
+        /* margin: 0 auto; */
+    }
+    iframe {
+        width: 85vw; 
+        height: 40vh; 
+        bottom: 1.5vw;
+    }
+    .cat2 {
+        width: 25vw;
+        top: 139vw;
+        right: 2%;
+
+    }
+    .copy{
+        font-size: 2vw;
+        /* top: 0.5vw; */
+    }
+    .tg{
+        width: 5vw;
+    }
+    .wt{
+        width: 5vw;
+    }
+    .alo{
+        left: 77vw;
+        bottom: 15vw;    
+        margin-top: 5vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        height: 3vw;
+    }
+    .phone {
+        width: 5vw;
+        position: relative;
+        bottom: 4.5vw;
+        right: 10vw;
+    }
+    /* footer {
+        flex-direction: column;
+        gap: 2vw;
+        padding: 2vw;
+    }
+
+    .alo {
+        flex-direction: column;
+        align-items: center;
+        gap: 1vw;
+    } */
+}
